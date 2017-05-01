@@ -1,0 +1,400 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	background-image: url("../img/bg_html.jpg");
+}
+.lid{
+	width: 100%;
+	height: 8px;
+	background: #292929;
+}
+.lid-red{
+	background: #CE0160;
+	width: 5%;
+	height: 8px;
+	float: left;
+}
+.lid-green{
+	background: #A0CC05;
+	width: 5%;
+	height: 8px;
+	float: left;
+}
+.lid-blue{
+	background: #0192C1;
+	width: 5%;
+	height: 8px;
+	float: left;
+}
+.wrap{
+	max-width: 940px;
+	margin: 0 auto;
+}
+.header{
+	max-width: 100%;
+	margin-top: 20px;
+}
+.logo{
+	float: left;
+}
+.social-button{
+	float: right;
+	margin-right: 10px;
+}
+.list{
+	float: left;
+	margin-top: 10px; 
+	margin-left: 201px;
+}
+.list li{
+	float: left;
+}
+.list li a{
+	display: block;
+	color: #292929;
+	text-decoration: none;
+	padding: 20px 10px 20px 30px;
+}
+.list li a:hover{
+	color: #01A5CA;
+	transition: 0.4s;
+}
+.content{
+	max-width: 100%;
+}
+.slide{
+	max-width: 100%;
+	height: 415px;
+	margin-bottom: 10px;
+}
+.slide-pic{
+	float: left;
+}
+.slide-data{	
+	background: #292929;
+	width: 300px;
+	height: 415px;
+	float: right;
+}
+.slide-data h2{
+	color: #0a8eac;
+	font-family: Lucida Sans Unicode;
+	font-size: 45px;
+	padding: 40px 30px 0px 30px;
+	line-height: 0.9;
+}
+.slide-data p{
+	color: #758480;
+	font-size: 15px;
+	padding: 30px 30px 0px 30px;
+	line-height: 2;
+	font-family: Arial;
+}
+.slide-button{
+
+}
+.slide-button a{
+	background: #3F3F3F;
+	width: 120px;
+	margin: 30px 30px 0px 30px;
+	padding: 15px;
+	border-radius: 3px;
+	font-family: Verdana;
+	color: #FFF;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+.slide-button:hover a{
+	color: #292929;
+	background: #888;
+	transition: 0.4s;
+}
+.detail{
+	background: #FFF;	
+	margin-top: 30px;
+}
+.detail p{
+	padding: 40px;
+	font-family: Arial;
+	line-height: 1.5;
+}
+.detail span{
+	color: #01A5CA;
+}
+.detail a{
+	color: #01A5CA; 
+	text-decoration: none;
+}
+.detail a:hover{
+	color: #55bdd5;
+	transition: 0.4s;
+}
+.data-area{
+	max-width: 100%;
+	height: 405px;
+	background: #FFF;
+	margin-top: 30px;
+	padding: 25px 25px 25px 45px;
+}
+.data-events{
+	max-width: 70%;
+	float: left;
+}
+.data-title h3{
+	font-style: bold;
+	font-size: 25px;
+}
+.data-title span{
+	color: #22ADCE;
+	font-family: Lucida Sans Unicode;
+}
+.events-sit{
+	width: 100%;
+	margin: 10px 0px 15px 0px;
+}
+.sit-pic{
+	float: left;
+	margin: 10px 10px 10px 0px;
+}
+.sit-data{
+	float: left;
+	width: 60%;
+	padding: 10px 20px 0px 20px;
+}
+.sit-data h4{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.sit-data p{
+	line-height: 1.5;
+}
+.events-lie{
+	width: 100%;
+	margin: 10px 0px 15px 0px;
+}
+.lie-pic{
+	float: left;
+	margin: 10px 10px 10px 0px;
+}
+.lie-data{
+	float: left;
+	width: 60%;
+	padding: 10px 20px 0px 20px;
+}
+.lie-data h4{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.lie-data p{
+	line-height: 1.5;
+}
+.data-list{
+	width: 23%;
+	float: right;
+	margin: 0px 40px 20px 20px;
+}
+.list-ul{
+	line-height: 2;
+	margin-top: 10px;
+}
+.data-search{
+	width: 23%;
+	float: right;
+	margin: 0px 40px 20px 20px;
+}
+.search-column{
+	margin: 10px auto;
+}
+input{
+	padding: 5px;
+}
+.search-button{
+	
+}
+.search-button a{
+	display: block;
+	width: 100px;
+	padding: 15px;
+	border-radius: 3px;
+	text-align: center;
+	text-decoration: none;
+	background: #F4F4F4;
+	color: #22ADCE;
+	font-weight: bold;
+	font-family: Lucida Sans Unicode;
+}
+.search-button:hover a{
+	background: #fdfafa;
+	color: #65d1ea;
+	transition: 0.4s;
+}
+.clear{
+	clear: both;
+}
+.footer{
+	max-width: 100%;
+	margin: 30px auto;
+}
+.footer p{
+	font-size: 14px;
+	font-family: Arial;
+	text-align: center;
+	line-height: 2;
+}
+.footer a{
+	color: #01A5CA;
+	text-decoration: none;
+}
+.footer a:hover{
+	color: #55bdd5;
+	transition: 0.4s;
+}
+@media (max-width: 940px) {
+	.list{
+		float: none;
+		margin: 0 auto;
+	}
+	.list li{
+		width: 100%;
+		float: none;
+		display: inline-block;
+	}
+	.list li a{
+		text-align: center;
+		padding: 10px;
+		border-bottom: 2px solid #ccc;
+	}
+	.content{
+		margin-top: -1px;
+	}
+	.slide{
+		width: 100%;
+		height: auto;
+	}
+	.slide-pic{
+    	width: 100%;
+    	height: auto;
+    	float: none;
+	}
+	.slide-pic img{
+		width: 100%;
+	}
+	.slide-data{
+		width: 96%;
+    	padding: 0% 2% 5% 2%;
+   	 	height: auto;
+   	 	float: none;
+   	 	margin-top: -5px;
+	}
+	.detail{
+		width: 100%;
+    	height: auto;
+	}
+	.data-area{
+		width: 100%;
+		height: auto;
+		padding: 0;
+	}
+	.data-events{
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+		padding: 10px 3%;
+	}
+	.sit-data{
+		padding: 0;
+	}
+	.lie-data{
+		padding: 0;
+	}
+	.data-list{
+		clear: both;
+		width: 30%;
+		float: left;
+		margin-top: 35px;
+		padding-left: 13%;
+	}
+	.data-search{
+		width: 30%;
+		float: right;
+		margin-top: 35px;
+		padding-right: 5%;
+	}
+}
+
+@media (max-width: 785px) {
+	.data-events{
+		float: none;
+		width: 80%;
+	}
+	.data-title{
+		margin-top: 10px;
+	}
+	.lie-data{
+		margin-bottom: 10px;
+	}
+	.data-list{
+		clear: both;
+		float: none;	
+		margin-left: 2%;
+		width: 80%;
+	}
+	.data-search{
+		float: none;
+		padding-bottom: 20px;
+		margin-left: 15%;
+		width: 80%;
+	}
+}
